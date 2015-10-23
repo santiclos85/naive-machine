@@ -63,7 +63,17 @@ public class TicketMachine
        System.out.println("Please, insert the correct amount of money");
         System.out.println();
     }
-
+    
+    /**
+     * Metodo que no devuelva nada
+     */
+    public void showPrice()
+    {
+        // Simulate the printing of a ticket.
+        System.out.println("The price of ticket is 100 cents");
+     
+        System.out.println();
+    }
     /**
      * Print a ticket.
      * Update the total collected and
