@@ -54,6 +54,15 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
+    
+    /**
+     * Metodo que no devuelva nada
+     */
+    public void prompt()
+    {
+       System.out.println("Please, insert the correct amount of money");
+        System.out.println();
+    }
 
     /**
      * Print a ticket.
